@@ -17,6 +17,7 @@ namespace EasyCalculator
         public MainForm()
         {
             InitializeComponent();
+            this.ActiveControl = this.calculationInput;
         }
 
         private void calculationInput_TextChanged(object sender, EventArgs e)
